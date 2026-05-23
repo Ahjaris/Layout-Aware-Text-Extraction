@@ -243,14 +243,14 @@ Project ini dapat dijalankan di Windows, Linux, maupun MacOS. Untuk Windows, dis
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/username/layout-aware-text-extraction.git
+git clone https://github.com/Ahjaris/Layout-Aware-Text-Extraction.git
 cd layout-aware-text-extraction
 ```
 
 ### 2. Buat virtual environment
 
 ```bash
-python -m venv sul
+python -m venv venv
 ```
 
 ### 3. Aktifkan virtual environment
@@ -258,13 +258,13 @@ python -m venv sul
 Windows:
 
 ```bash
-sul\Scripts\activate
+venv\Scripts\activate
 ```
 
 Mac/Linux:
 
 ```bash
-source sul/bin/activate
+source venv/bin/activate
 ```
 
 ### 4. Install dependency
